@@ -1,0 +1,85 @@
+:root {
+    --color-principal: blue;
+    --color-fondo:red;
+    --color-secundario:yellow;
+    --fuente-base:Arial, sans-serif;
+}
+
+body {
+    background-color: beige;
+    color: rgb(65, 65, 65);
+    font-family: var(--fuente-base);
+}
+
+nav {
+    background-color: blue;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: aqua;
+    color: black;
+}
+img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+form {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 25px;
+    border: 2px solid blue;
+    border-radius: 12px;
+    background-color: white;
+}
+
+
+form h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+form label {           
+    display: block;
+    margin-bottom: 8px;
+}
+            form input,
+form select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+form button {
+    padding: 10px 25px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: darkblue;
+}
+.menu-item {
+    color:chocolate;
+    margin-bottom: 10px;
+    
+}
+#help {
+    color: cadetblue ;
+        text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+}
